@@ -1,4 +1,5 @@
 /* CSS General */
+
 * {
     margin: 0;
     padding: 0;
@@ -139,7 +140,16 @@ nav ul {
     margin-right: 5px;
 }
 @media (max-width: 450px) {
-.menu-button{
+
+    .footer .copyright {
+        font-size: 12px;
+    }
+
+    .logo {
+        width: 6rem;
+    }
+
+    .menu-button{
         display: block;
     }
     nav {
@@ -159,6 +169,7 @@ nav ul {
 
     }
 }
+
 
 /* Index CSS */
 
@@ -342,3 +353,5 @@ nav ul {
         flex-wrap: wrap;
     }
 }
+
+/* PONGAN NOTAS DE QUE ES EL CSS SAPOS >:( */
