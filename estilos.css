@@ -179,6 +179,72 @@ nav a.active {
     box-shadow: 0 0 50px var(--main-color);
 }
 
+/* Sección Proyecto */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.fotoCirco {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    opacity: 0.3; 
+}
+
+
+.seccion-proyecto {
+    padding: 1rem;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    background-color: #fca311;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 700px;
+    margin: 2rem auto;
+    flex-direction: column;
+  }
+
+.tituloCajas {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.tituloCajas p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #080808;
+}
+
+.containerProyecto {
+    margin-top: 20px;
+}
+
+.parrafo {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #080808;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 @media (max-width: 450px) {
     .block-integrantes {
         flex-wrap: wrap;
