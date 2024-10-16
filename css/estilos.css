@@ -358,7 +358,7 @@ nav ul li a {
 
 main {
     flex: 1;
-    padding: 12rem;
+    padding: 20rem;
     display: flex;
     justify-content: center;
     align-items: center;
