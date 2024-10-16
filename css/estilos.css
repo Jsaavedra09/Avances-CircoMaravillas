@@ -387,7 +387,6 @@ nav ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 9.8rem;
 }
 
 .seccion-proyecto {
@@ -398,7 +397,7 @@ nav ul li a {
     border: 3px solid var(--second-bg-color);
     display: flex;
     justify-content: space-between;
-    max-width: 700px;
+    max-width: 650px;
     margin: 2rem auto;
     flex-direction: column;
 }
