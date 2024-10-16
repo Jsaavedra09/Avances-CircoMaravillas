@@ -107,6 +107,7 @@ nav ul {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    
 }   
 
 .sidebar {
@@ -366,7 +367,7 @@ main {
     max-width: 700px;
     margin: 2rem auto;
     flex-direction: column;
-  }
+}
 
 .tituloCajas {
     margin-bottom: 20px;
