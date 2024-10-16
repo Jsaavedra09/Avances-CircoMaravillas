@@ -341,8 +341,8 @@ main {
 
 .seccion-proyecto {
     padding: 1rem;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-    background-color: #fca311;
+    box-shadow: 0px 0px 10px var(--second-bg-color);
+    background-color: var(--main-color);
     border-radius: 30px;
     border: 3px solid var(--second-bg-color);
     display: flex;
@@ -360,7 +360,6 @@ main {
 .tituloCajas p {
     font-size: 24px;
     font-weight: bold;
-    color: #080808;
 }
 
 .containerProyecto {
@@ -371,7 +370,6 @@ main {
     text-align: center;
     font-size: 16px;
     line-height: 1.6;
-    color: #080808;
 }
 
 a:hover {
@@ -385,9 +383,9 @@ a:hover {
 
 .block-avances {
     padding: 2rem;
-    border: 3px solid var(--main-color);
-    box-shadow: 10px 10px 8px var(--main-color);
-    background-color: var(--second-bg-color);
+    border: 4px solid var(--tercer-color);
+    box-shadow: 0px 0px 12px var(--tercer-color);
+    background-color: var(--main-color);
     border-radius: 30px;
     display: flex;
     flex-direction: column;
@@ -405,13 +403,68 @@ a:hover {
 .avances-text {
     display: flex;
     text-align: justify;
-    font-size: 25px;
+    font-size: 20px;
 }
 
-.block.avances img {
-    display: flex;
-    flex-direction: column;
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
+
+header h1 {
+    font-size: 24px;
+    color: #d47b7b;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+header p {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+.color-palette {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.color-palette h2 {
+    margin-bottom: 10px;
+}
+
+.color {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.site-map {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.site-map img {
+    width: 80%;
+    height: auto;
+}
+
 @media (max-width: 450px) {
     .block-integrantes {
         flex-wrap: wrap;
