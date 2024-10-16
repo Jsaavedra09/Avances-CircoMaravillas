@@ -1,5 +1,4 @@
 /* CSS General */
-
 * {
     margin: 0;
     padding: 0;
@@ -64,6 +63,7 @@ nav a.active {
     color: var(--second-bg-color);
     border-bottom: 3px solid var(--second-bg-color);
 }
+
 .main {
     height: 100%;
 }
@@ -108,8 +108,11 @@ nav ul {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    
 }   
+
+nav ul li a {
+    text-decoration: none;
+}
 
 .sidebar {
     position: fixed;
@@ -404,65 +407,6 @@ a:hover {
     display: flex;
     text-align: justify;
     font-size: 20px;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: white;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
-
-header h1 {
-    font-size: 24px;
-    color: #d47b7b;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-header p {
-    text-align: center;
-    font-size: 16px;
-    margin-bottom: 20px;
-}
-
-.logo {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
-}
-
-.logo img {
-    width: 100px;
-    height: auto;
-}
-
-.color-palette {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.color-palette h2 {
-    margin-bottom: 10px;
-}
-
-.color {
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-    margin: 5px;
-    border-radius: 5px;
-}
-
-.site-map {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.site-map img {
-    width: 80%;
-    height: auto;
 }
 
 @media (max-width: 450px) {
