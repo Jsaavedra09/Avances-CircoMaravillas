@@ -357,8 +357,7 @@ nav ul li a {
 /* Sección Proyecto */
 
 main {
-    flex: 1;
-    padding: 20rem;
+    padding: 11.8rem;
     display: flex;
     justify-content: center;
     align-items: center;
