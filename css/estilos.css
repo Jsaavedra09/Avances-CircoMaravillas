@@ -336,7 +336,7 @@ nav ul li a {
 }
 
 .botonPort:hover{
-    transform: scale(1.10);
+    transform: scale(1.05);
     box-shadow: 0 0 20px var(--tercer-color);
     text-decoration: none;
 }
@@ -428,6 +428,61 @@ a:hover {
     display: flex;
     text-align: justify;
     font-size: 20px;
+}
+
+.block-avances {
+    background-color: var(--main-color);
+    padding: 20px 40px;
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+}
+
+.block-avances h2 {
+    font-size: 3rem;
+    margin: 15px 0;
+}
+
+.block-avances h3 {
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+.block-avances p {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.block-avances img[alt="logo1"] {
+    max-width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+.palette {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.palette .color {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+    border: 3px solid var(--tercer-color);
+    box-shadow: 0 0 15px var(--tercer-color);
+}
+
+.botonintegrante {
+    margin: 20px 0;
 }
 
 @media (max-width: 450px) {
