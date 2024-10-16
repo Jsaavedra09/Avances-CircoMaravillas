@@ -393,6 +393,40 @@ a:hover {
     text-decoration: underline;
 }
 
+.avances {
+    display: flex;
+    flex-direction: column;
+}
+
+.block-avances {
+    padding: 2rem;
+    border: 3px solid var(--main-color);
+    box-shadow: 10px 10px 8px var(--main-color);
+    background-color: var(--second-bg-color);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 65%;
+    margin: 2rem auto;
+    gap: 15px;
+}
+
+.titulo-avances {
+    font-size: 40px;
+    text-align: center;
+}
+
+.avances-text {
+    display: flex;
+    text-align: justify;
+    font-size: 25px;
+}
+
+.block.avances img {
+    display: flex;
+    flex-direction: column;
+}
 @media (max-width: 450px) {
     .block-integrantes {
         flex-wrap: wrap;
