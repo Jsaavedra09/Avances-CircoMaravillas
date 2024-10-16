@@ -440,7 +440,7 @@ a:hover {
 
 .block-avances h2 {
     font-size: 3rem;
-    margin: 15px 0;
+    margin: 8px 0;
 }
 
 .block-avances h3 {
@@ -449,8 +449,7 @@ a:hover {
 }
 
 .block-avances p {
-    font-size: 1.5rem;
-    margin-bottom: 15px;
+    font-size: 1.6rem;
 }
 
 .block-avances img[alt="logo1"] {
@@ -512,4 +511,3 @@ a:hover {
     }
 }
 
-/* PONGAN NOTAS DE QUE ES EL CSS SAPOS >:( */
