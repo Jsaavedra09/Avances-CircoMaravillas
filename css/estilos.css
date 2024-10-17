@@ -14,7 +14,7 @@
     --second-bg-color: #ff1e00;
     --text-color: #fff;
     --main-color: #000000;
-    --tercer-color: #e7aa24;
+    --tercer-color:  #ff1e00;
 }
 
 html{
@@ -382,48 +382,46 @@ nav ul li a {
 }
 
 /* Sección Proyecto */
-
 .main-proyecto {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 13rem;
 }
 
 .seccion-proyecto {
-    padding: 1rem;
+    padding: 2rem;
     box-shadow: 0px 0px 10px var(--second-bg-color);
     background-color: var(--main-color);
     border-radius: 30px;
     border: 3px solid var(--second-bg-color);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center; 
     max-width: 60%;
-    margin: 4rem auto;
+    margin: 2rem auto;
     flex-direction: column;
 }
 
 .tituloCajas {
-    margin-bottom: 20px;
+    margin-bottom: 1.5rem;
     text-align: center;
 }
 
 .tituloCajas p {
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: bold;
 }
 
 .containerProyecto {
-    margin-top: 20px;
+    margin-top: 1.5rem;
 }
 
 .parrafo {
     text-align: center;
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 1.6;
-}
-
-a:hover {
-    text-decoration: underline;
+    margin-bottom: 2rem;
 }
 
 /* Avances CSS */ 
