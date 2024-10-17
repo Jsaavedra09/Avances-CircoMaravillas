@@ -82,7 +82,7 @@ nav a.active {
     padding: 5px 0;
     background: var(--main-color);
     box-sizing: border-box; 
-    margin-top: 24.5rem;
+    margin-top: 10rem;
 }
 
 .contenido-footer {
@@ -150,6 +150,7 @@ nav ul li a {
     display: none;
     margin-right: 5px;
 }
+
 @media (max-width: 450px) {
 
     .footer .copyright {
@@ -224,6 +225,8 @@ nav ul li a {
         width: 90%;
         justify-content: center;
         display: flex;
+        padding: 0;
+        align-items: center;
     }
     .contenido-inicio {
         width: 80%;
@@ -358,10 +361,12 @@ nav ul li a {
     .block-integrantes {
         flex-wrap: wrap;
         flex-direction: column;
-        width: 75%;
+        max-width: 75%;
+        padding: 0;
     }
     .block-integrantes h1 {
         font-size: 25px;
+        margin-top: 30px;
     }
     .cajita-integrantes {
         display: flex;
@@ -422,6 +427,17 @@ nav ul li a {
     font-size: 1.6rem;
     line-height: 1.6;
     margin-bottom: 2rem;
+}
+
+@media (max-width: 450px) {
+    .main-proyecto {
+        padding: 0;
+    }
+
+    .seccion-proyecto {
+        max-width: 80%;
+        margin-top: 30px;
+    }
 }
 
 /* Avances CSS */ 
