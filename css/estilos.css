@@ -261,7 +261,7 @@ nav ul li a {
     border-radius: 30px;
     display: flex;
     justify-content: space-between;
-    max-width: 70%;
+    max-width: 60%;
     margin: 2rem auto;
     flex-direction: column;
 }
